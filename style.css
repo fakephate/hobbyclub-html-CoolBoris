@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+    nav ul li {
+        float: left;
+    }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 0.875rem 1rem;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                background-color: #111;
+            }
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0.625rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    width: 80%;
+    margin: 1.25rem auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 0.625rem;
+    text-align: left;
+}
+.hobby-images {
+    display: flex;
+    gap: 0.625rem;
+    justify-content: center;
+    margin-top: 1.25rem;
+}
+
+.hobby-images figure {
+    text-align: center;
+}
+
+.hobby-images img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+ }
+
+ .hobby-images img:hover {
+    transform: scale(1.1);
+ }
+
+
+form {
+    max-width: 37.5rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+ form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+ }
+
+ form input, form textarea {
+    width: 90%;
+    padding: 0.625rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+ }
+
+ form textarea {
+    resize: vertical;
+ }
+
+ form .buttons {
+    display: flex;
+    gap: 0.625rem;
+ }
+
+ form button {
+    padding: 0.625rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+ }
+
+ .submitButton {
+    background-color: #4CAF50;
+    color: white;
+ }
+
+ .resetButton {
+    background-color: #f44336;
+    color: white;
+ }
+
+ form button:hover {
+    opacity: 0.9;
+ }
+
+.content {
+    overflow: auto;
+    padding-bottom: 3.75rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    
+}
+
+.construction {
+    text-align: center;
+    margin: 3.125rem auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 1.25rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    max-width: 37.5rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.construction img {
+    margin-top: 1.25rem;
+    border-radius: 0.5rem;
+}
+        
